@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="1"
+
+
+    >
+    <LinearLayout android:id="@+id/linearLayout"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="5dp">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/linear_addnotes"
+            android:layout_marginTop="59dp"
+            >
+
+            <EditText
+                android:id="@+id/subjectEditText"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:hint="  Subject"
+                android:textColorHint="@android:color/darker_gray"
+                android:imeOptions="actionNext"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="25dp"
+                android:inputType="textPersonName|textCapWords"
+                android:textColor="@android:color/black"
+                android:background="@drawable/edit_text"
+                android:textCursorDrawable="@drawable/cursor_color"
+
+
+               />
+
+
+
+
+            <EditText
+                android:id="@+id/noteEditText"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="65dp"
+                android:layout_marginLeft="25dp"
+                android:ems="10"
+                android:hint="  Note"
+                android:imeOptions="actionNext"
+                android:inputType="textMultiLine"
+                android:background="@drawable/edit_text"
+                android:textColor="@android:color/black"
+                android:textCursorDrawable="@drawable/cursor_color"/>
+        </RelativeLayout>
+
+
+        <LinearLayout
+            android:layout_width="300dp"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_gravity="center">
+
+
+            <Button
+                android:id="@+id/saveButton"
+                android:layout_width="140dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="10dp"
+
+                android:layout_gravity="center"
+                android:background="@drawable/button_shape_image"/>
+
+            <Button
+                android:id="@+id/takePhoto"
+                android:layout_width="140dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_gravity="center"
+                android:background="@drawable/button_shape"
+                />
+
+
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/dateTime"
+
+            android:text="Time"
+
+            android:background="@android:color/background_dark"
+            android:textColor="@android:color/darker_gray"
+            android:layout_marginLeft="40dp"
+            android:visibility="invisible"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        </TextView>
+
+        <ImageView
+            android:id="@+id/addimageView"
+            android:layout_width="50dp"
+            android:layout_height="50dp" />
+
+
+
+
+    </LinearLayout>
+</ScrollView>

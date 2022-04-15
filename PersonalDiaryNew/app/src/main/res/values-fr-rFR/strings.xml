@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Personal Diary</string>
+    <string name="enter_pass">Entrer le mot de passe</string>
+    <string name="submit">nous faire parvenir</string>
+    <string name="close_app">fermer l\'application</string>
+    <string name="toast_here_go">bienvenue</string>
+    <string name="wrong_pass">Mauvais mot de passe!</string>
+    <string name="action_settings">Paramètres</string>
+    <string name="add_notes">AJOUTER UNE NOTE</string>
+    <string name="view_notes">VOIR LES NOTES</string>
+    <string name="subject">"matière "</string>
+    <string name="note">REMARQUE</string>
+</resources>

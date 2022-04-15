@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="167dp"
+    android:orientation="vertical"
+    android:weightSum="1"
+    >
+
+    <RelativeLayout
+        android:id="@+id/imageView1"
+        android:layout_width="fill_parent"
+        android:layout_height="160dp"
+
+        android:layout_margin="5dp"
+
+        android:background="@drawable/demo_list2"
+        android:layout_weight="0.01">
+
+        
+         <TextView
+             android:id="@+id/subjTextView"
+             android:layout_width="wrap_content"
+             android:layout_height="60dp"
+            android:maxLines="3"
+            android:maxLength="10"
+            android:ellipsize="end"
+
+             android:text="subject"
+             android:textColor="@android:color/black"
+             android:textSize="20sp"
+             android:gravity="center"
+             android:layout_alignTop="@+id/timeTextView"
+             android:layout_toRightOf="@+id/nteTextView"
+             android:layout_toEndOf="@+id/nteTextView" />
+
+          <TextView
+            android:id="@+id/nteTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+              android:gravity="center"
+            android:maxLines="1"
+            android:maxLength="12"
+            android:ellipsize="end" 
+            android:text="note"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+              android:scrollHorizontally="true"
+            android:singleLine="true"
+              android:layout_alignParentBottom="true"
+              android:layout_centerHorizontal="true" />
+
+           <TextView
+               android:id="@+id/timeTextView"
+               android:layout_width="wrap_content"
+               android:layout_height="150dp"
+               android:text="time"
+               android:textColor="@android:color/black"
+               android:textSize="20sp"
+               android:layout_alignParentBottom="true"
+               android:layout_alignParentLeft="true"
+               android:layout_alignParentStart="true" />
+         
+    </RelativeLayout>
+
+
+</LinearLayout>
